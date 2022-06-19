@@ -48,8 +48,14 @@ The resources can be accessed via the `$api` object. All the methods invocations
 
 ```php
     // $api->class->function() to access the API
-    //Example
+    //Example - Send Message
     $api->message->sendMessage(array('number' => $number, 'message' => $message));
+
+    //Example - Send Template
+    $api->message->sendTemplate(array('number' => $number, 'template' => $template, 'params' => array()));
+
+    //Example - Send Media
+    $api->message->sendMedia(array('number' => $number, 'template' => $template, 'params' => array()));
 ```
 
 ## Development
