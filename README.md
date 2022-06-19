@@ -1,6 +1,6 @@
 # WA Easy API PHP Library
 
-[![Build Status](https://travis-ci.org/waeasyapi/waeasyapi-php.svg?branch=master)](https://travis-ci.org/waeasyapi/waeasyapi-php) [![Stable](https://img.shields.io/badge/stable-v2.8.0-blue.svg)](https://packagist.org/packages/waeasyapi/waeasyapi#2.8.0) [![License](https://poser.pugx.org/waeasyapi/waeasyapi/license.svg)](https://packagist.org/packages/waeasyapi/waeasyapi)
+(https://travis-ci.org/waeasyapi/waeasyapi-php) [![Stable](https://img.shields.io/badge/stable-v1.0.0-blue.svg)](https://packagist.org/packages/waeasyapi/waeasyapi#2.8.0) [![License](https://poser.pugx.org/waeasyapi/waeasyapi/license.svg)](https://packagist.org/packages/waeasyapi/waeasyapi)
 
 Official PHP library for [WAEasyAPI](https://docs.waeasyapi.com/).
 
