@@ -1,0 +1,35 @@
+{
+    "name": "waeasyapi/waeasyapi",
+    "description": "WAEasyAPI PHP Client Library",
+    "keywords": ["waeasyapi", "api", "php", "client"],
+    "authors": [
+        {
+            "name": "WA Easy API",
+            "email": "team@waeasyapi.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "team@waeasyapi.com",
+        "issues": "https://github.com/waeasyapi/waeasyapi-php/issues",
+        "source": "https://github.com/waeasyapi/waeasyapi-php"
+    },
+    "homepage": "https://docs.waeasyapi.com",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "rmccue/requests": "^2.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "raveren/kint": "1.*",
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "WAEasyAPI\\Api\\": "src/",
+            "WAEasyAPI\\Tests\\": "tests/"
+        },
+        "files" : ["Deprecated.php"]
+    }
+}
