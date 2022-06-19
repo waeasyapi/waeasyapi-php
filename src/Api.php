@@ -24,6 +24,8 @@ class Api
      */
     public function __construct($acc_id, $acc_secret)
     {
+
+        echo "acc_id.....: ".$acc_id;
         self::$acc_id = $acc_id;
         self::$acc_secret = $acc_secret;
     }
