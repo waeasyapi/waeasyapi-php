@@ -47,7 +47,6 @@ $api = new Api($acc_id, $acc_secret);
 The resources can be accessed via the `$api` object. All the methods invocations follows the following pattern
 
 ```php
-    // $api->class->function() to access the API
     //Example - Send Message
     $api->message->sendMessage(array('number' => $number, 'message' => $message));
 
