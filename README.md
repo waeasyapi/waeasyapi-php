@@ -47,7 +47,7 @@ $api = new Api($acc_id, $acc_secret);
 The resources can be accessed via the `$api` object. All the methods invocations follows the following pattern
 
 ```php
-    //number must start with the country's dialing code (for example 
+    //number must start with the country's dialing code
     //Example - For USA: 158883993
     //Example - For India: 919876543210
 
