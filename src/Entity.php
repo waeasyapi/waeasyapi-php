@@ -1,8 +1,8 @@
 <?php
 
-namespace Razorpay\Api;
+namespace WAEasyAPI\Api;
 
-use Razorpay\Api\Errors;
+use WAEasyAPI\Api\Errors;
 
 class Entity extends Resource implements ArrayableInterface
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Razorpay\Api;
+namespace WAEasyAPI\Api;
 
 class Api
 {
-    protected static $baseUrl = 'https://api.razorpay.com/v1/';
+    protected static $baseUrl = 'https://api.waeasyapi.com/v1/';
 
-    protected static $key = null;
+    protected static $acc_id = null;
 
-    protected static $secret = null;
+    protected static $acc_secret = null;
 
     /*
      * App info is to store the Plugin/integration
@@ -20,12 +20,12 @@ class Api
 
     /**
      * @param string $key
-     * @param string $secret
+     * @param string $acc_secret
      */
-    public function __construct($key, $secret)
+    public function __construct($acc_id, $acc_secret)
     {
-        self::$key = $key;
-        self::$secret = $secret;
+        self::$acc_id = $acc_id;
+        self::$acc_secret = $acc_secret;
     }
 
     /*
@@ -74,14 +74,14 @@ class Api
         return self::$baseUrl;
     }
 
-    public static function getKey()
+    public static function getID()
     {
-        return self::$key;
+        return self::$acc_id;
     }
 
     public static function getSecret()
     {
-        return self::$secret;
+        return self::$acc_secret;
     }
 
     public static function getFullUrl($relativeUrl)

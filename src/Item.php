@@ -1,6 +1,6 @@
 <?php
 
-namespace Razorpay\Api;
+namespace WAEasyAPI\Api;
 
 class Item extends Entity
 {

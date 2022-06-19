@@ -1,6 +1,6 @@
 <?php
 
-namespace Razorpay\Api\Errors;
+namespace WAEasyAPI\Api\Errors;
 
 use Exception;
 

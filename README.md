@@ -49,7 +49,7 @@ The resources can be accessed via the `$api` object. All the methods invocations
 ```php
     // $api->class->function() to access the API
     //Example
-    $api->send->message($number, $message);
+    $api->message->sendMessage($number, $message);
 ```
 
 ## Development
