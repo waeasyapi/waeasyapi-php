@@ -36,7 +36,7 @@ Documentation of WAEasyAPI's API and their usage is available at <https://docs.w
 
 ## Basic Usage
 
-Instantiate the waeasyapi php instance with `acc_id` & `acc_secret`. You can obtain the keys from the dashboard app ([https://app.waeasyapi.com/](https://app.waeasyapi.com/))
+Instantiate the waeasyapi php instance with `acc_id` & `acc_secret`. You can obtain the keys from the dashboard ([https://app.waeasyapi.com/](https://app.waeasyapi.com/))
 
 ```php
 use WAEasyAPI\Api\Api;
