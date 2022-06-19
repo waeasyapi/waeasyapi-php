@@ -15,7 +15,7 @@ Read up here for getting started and understanding the payment flow with WAEasyA
 -   If your project using composer, run the below command
 
 ```
-composer require waeasyapi/waeasyapi:2.*
+composer require waeasyapi/waeasyapi
 ```
 
 - If you are not using composer, download the latest release from [the releases section](https://github.com/waeasyapi/waeasyapi-php/releases).
