@@ -61,8 +61,7 @@ class Entity extends Resource implements ArrayableInterface
         $pos = strrpos($fullClassName, '\\');
         $className = substr($fullClassName, $pos + 1);
         $className = $this->snakeCase($className);
-        echo $className;
-        return $className.'/abc';
+        return $className.'s/';
     }
 
     protected function snakeCase($input)
