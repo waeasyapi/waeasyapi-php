@@ -57,22 +57,6 @@ The resources can be accessed via the `$api` object. All the methods invocations
     $api->message->sendMedia(array('number' => $number, 'template' => $template, 'params' => array()));
 ```
 
-## Development
-
-See the [doc.md](doc.md) file for getting started with development.
-
-## Release
-
-Steps to follow for a release:
-
-0. Merge the branch with the new code to master.
-1. Bump the Version in `src/Api.php`.
-2. Rename Unreleased to the new tag in `CHANGELOG.md`
-3. Add a new empty "Unreleased" section at the top of `CHANGELOG.md`
-4. Fix links at bottom in `CHANGELOG.md`
-5. Commit
-6. Tag the release and push to GitHub
-7. A release should automatically be created once the travis build passes. Edit the release to add some description.
 
 ## License
 
