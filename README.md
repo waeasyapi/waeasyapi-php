@@ -62,8 +62,8 @@ The resources can be accessed via the `$api` object. All the methods invocations
     );
 
     // Example - Send Media
-    // media = media-url-or-media-blob
 
+    // media = media-url-or-media-blob
     $api->message->sendMedia(
       array('number' => $number, 'template' => $template, 'media' => $media, 'params' => array())
     );
