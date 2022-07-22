@@ -51,21 +51,83 @@ The resources can be accessed via the `$api` object. All the methods invocations
     // Example - For USA: 158883993
     // Example - For India: 919876543210
 
-    // Example - Send Message
-    $api->message->sendMessage(
+    // Example - Send Text Message
+    $api->message->sendTextMessage(
       array('number' => $number, 'message' => $message)
     );
 
-    // Example - Send Template
-    $api->message->sendTemplate(
+    // Example - Send Template Message
+    $api->message->sendTemplateMessage(
       array('number' => $number, 'template' => $template, 'params' => array())
     );
 
-    // Example - Send Media
+    // Example - Send Image Message
+    $api->message->sendImageMessage(
+      array('number' => $number, 'params' => array('link' => 'image_url'))
+    );
 
-    // media = media-url-or-media-blob
-    $api->message->sendMedia(
-      array('number' => $number, 'template' => $template, 'media' => $media, 'params' => array())
+    // Example - Send Video Message
+    $api->message->sendVideoMessage(
+      array('number' => $number, 'params' => array('link' => 'video_url'))
+    );
+
+    // Example - Send Audio Message
+    $api->message->sendAudioMessage(
+      array('number' => $number, 'params' => array('link' => 'audio_url'))
+    );
+
+    // Example - Send Document Message
+    $api->message->sendDocumentMessage(
+      array('number' => $number, 'params' => array('link' => 'document_url'))
+    );
+
+    // Example - Send URL Message
+    $api->message->sendURLMessage(
+      array('number' => $number, 'url' => 'https://waeasyapi.com')
+    );
+
+    // Example - Send Contact Message
+    $contacts = array(
+      array(
+        'name' => array(
+          'formatted_name' => 'Robin White', // required
+          'first_name' => 'Robin', // optional
+          'last_name' => 'White' // optional
+        ),
+
+        'phones' => array(
+          array(
+            'phone' => '+18787878787', // required
+            'wa_id' => '18787878787' // optional
+          )
+        ),
+
+        // emails optional
+        'emails' => array(
+          array(
+            'email' => 'team@waeasyapi.com'
+          )
+        )
+      )
+    );
+    $api->message->sendContactMessage(
+      array('number' => $number, 'params' => $contacts)
+    );
+
+    // Example - Send Location Message
+    $location = array(
+      'longitude' => -122.425332,
+      'latitude' => 37.758056,
+      'name' => 'Facebook HQ',
+      'address' => '1 Hacker Way, Menlo Park, CA 94025'
+    );
+    $api->message->sendLocationMessage(
+      array('number' => $number, 'params' => $location)
+    );
+  
+    // Example - Send Interactive Message
+    $api->message->sendInteractiveMessage(
+      array('number' => $number, 'params' => array())
     );
 ```
 
