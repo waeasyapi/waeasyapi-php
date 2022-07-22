@@ -2,9 +2,9 @@
 
 [![Stable](https://img.shields.io/badge/stable-v1.0.0-blue.svg)](https://packagist.org/packages/waeasyapi/waeasyapi#2.8.0) [![License](https://poser.pugx.org/waeasyapi/waeasyapi/license.svg)](https://packagist.org/packages/waeasyapi/waeasyapi)
 
-Official PHP library for [WAEasyAPI](https://docs.waeasyapi.com/).
+Official PHP library for [WAEasyAPI](https://waeasyapi.com/).
 
-Read up here for getting started and understanding the payment flow with WAEasyAPI: <https://docs.waeasyapi.com>
+Read up here for getting started and understanding the payment flow with WAEasyAPI: <https://waeasyapi.com>
 
 ### Prerequisites
 - A minimum of PHP 7.3 upto 8.1
