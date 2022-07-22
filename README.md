@@ -32,11 +32,11 @@ This PHP library follows the following practices:
 
 ## Documentation
 
-Documentation of WAEasyAPI's API and their usage is available at <https://docs.waeasyapi.com>
+Documentation of WAEasyAPI's API and their usage is available at <https://waeasyapi.com>
 
 ## Basic Usage
 
-Instantiate the waeasyapi php instance with `acc_id` & `acc_secret`. You can obtain the keys from the dashboard ([https://app.waeasyapi.com/](https://app.waeasyapi.com/))
+Instantiate the waeasyapi php instance with `acc_id` & `acc_secret`. You can obtain the keys from the dashboard ([https://waeasyapi.com/](https://waeasyapi.com/))
 
 ```php
 use WAEasyAPI\Api\Api;
